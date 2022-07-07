@@ -1,0 +1,272 @@
+body {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+
+#bg {
+  background-color: black;
+  position: absolute;
+  top: 50px;
+  left: 250px;
+  width: 50px;
+  height: 250px;
+
+}
+
+#bg1 {
+  background-color: black;
+  position: absolute;
+  top: 50px;
+  left: 250px;
+  width: 50px;
+  height: 230px;
+  animation-name: cross;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+
+}
+
+#bg2 {
+  background-color: black;
+  position: absolute;
+  top: 50px;
+  left: 250px;
+  width: 50px;
+  height: 200px;
+  animation-name: diagnol;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+
+}
+
+@keyframes cross{
+  0%{
+  top: 50px;
+  left: 250px;
+  width: 50px;
+  height: 230px;
+  }
+  100%{
+    transform: rotate(90deg);
+    top: 65px;
+    left: 225px;
+  }
+}
+
+@keyframes diagnol{
+  0%{
+  top: 50px;
+  left: 250px;
+  width: 50px;
+  height: 200px;
+  }
+  100%{
+    transform: rotate(45deg);
+    top: 30px;
+    left: 160px;
+    height: 210px;
+  }
+}
+
+
+#bg3 {
+  background-color: black;
+  position: absolute;
+  top: 90px;
+  left: 250px;
+  width: 60px;
+  height: 100px;
+  border-radius: 100%;
+  animation-name: expandouter;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+
+
+}
+
+#bg4 {
+  background-color: black;
+  position: absolute;
+  top: 100px;
+  left: 260px;
+  width: 40px;
+  height: 80px;
+  border-radius: 100%;
+  animation-name: expandinner;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+
+}
+
+@keyframes expandouter{
+  0%{
+  top: 90px;
+  left: 250px;
+  width: 60px;
+  height: 100px;
+  border-radius: 100%;
+  }
+  100%{
+  width: 120px;
+  height: 200px;
+  left: 450px;
+  }
+}
+
+@keyframes expandinner{
+  0%{
+  background-color: black;
+  top: 100px;
+  left: 260px;
+  width: 40px;
+  height: 80px;
+  border-radius: 100%;
+  }
+  100%{
+  background-color: white;
+  width: 80px;
+  height: 160px;
+  left: 460px;
+  }
+}
+
+.area{
+  position: fixed;
+  top: 200px;
+  left: 200px;
+}
+
+
+
+
+#bgg {
+  background-color: black;
+  position: absolute;
+  top: 50px;
+  left: 250px;
+  width: 50px;
+  height: 250px;
+  animation-name: main;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+
+}
+
+#bg11 {
+  background-color: black;
+  position: absolute;
+  top: 50px;
+  left: 250px;
+  width: 50px;
+  height: 230px;
+  animation-name: cross1;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+
+}
+
+#bg22 {
+  background-color: black;
+  position: absolute;
+  top: 50px;
+  left: 250px;
+  width: 50px;
+  height: 200px;
+  animation-name: diagnol1;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+
+}
+
+@keyframes cross1{
+  0%{
+  background-color: black;
+  top: 50px;
+  left: 250px;
+  width: 50px;
+  height: 230px;
+  }
+  100%{
+    transform: rotate(90deg);
+    top: 65px;
+    left: 775px;
+    background-color: red;
+  }
+}
+
+@keyframes diagnol1{
+  0%{
+  background-color: black;
+  top: 50px;
+  left: 250px;
+  width: 50px;
+  height: 200px;
+  }
+  100%{
+    transform: rotate(45deg);
+    top: 30px;
+    left: 710px;
+    height: 210px;
+    background-color: red;
+  }
+}
+
+@keyframes main{
+  0%{
+  background-color: black;
+  top: 50px;
+  left: 250px;
+  width: 50px;
+  height: 250px;
+  }
+  100%{
+    background-color: red;
+    top: 50px;
+    left: 800px;
+   
+  }
+}
+
+
+
+#bggg {
+  background-color: black;
+  position: absolute;
+  top: 50px;
+  left: 250px;
+  width: 50px;
+  height: 250px;
+  animation-name: main2;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+ 
+}
+
+
+@keyframes main2{
+  0%{
+  background-color: black;
+  top: 50px;
+  left: 250px;
+  width: 50px;
+  height: 50px;
+  }
+  100%{
+    background-color: white;
+    width: 250px;
+    height: 50px;
+    top: 400px;
+    left: 450px;
+
+   
+  }
+}
