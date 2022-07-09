@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: white
+}
+
+.gradient {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(75deg, lightgray 25%, darkgray 25% 50%, lightslategray 50% 75%, darkslategray 75%);
+}
+
+.gradient h1 {
+  font-family: 'Varela Round', sans-serif;
+  font-size: 6rem;
+}
+.gradient p {
+  font-family: 'Varela Round', sans-serif;
+  font-size: 3rem;
+}
+.gradient h2 {
+  font-family: 'Varela Round', sans-serif;
+  font-size: 2rem;
+}
+.btn {
+  font-family: 'Edu SA Beginner', cursive;
+  padding: 14px 40px;
+  color: white;
+  border: none;
+  background-color: lightgreen;
+  font-size: 30px;
+  border-radius: 25px;
+  text-decoration: none;
+}
+.btn:hover {
+  font-family: 'Edu SA Beginner', cursive;
+  color: red;
+  background-color: salmon;
+}
+
