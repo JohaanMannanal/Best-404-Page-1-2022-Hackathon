@@ -1,6 +1,6 @@
 **PROJECT RULES**
 
-1. You must only use HTML, CSS, and JS.
+1. You must only make the website with HTML, CSS, and JS.
 2. You must create a website with one page (error 404 page) that can be animated, but does not have to be functional.
 3. You must follow the theme of a error 404 page; fancy/modern that could have a redirect button to the main page.
 4. You must submit before July 15, 2022.
