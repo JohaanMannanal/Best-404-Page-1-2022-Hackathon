@@ -1,3 +1,4 @@
+
 **PROJECT RULES**
 
 1. You must only make the website with HTML, CSS, and JS.
@@ -12,3 +13,6 @@
 **PROJECT PRIZE**
 
 You will get your name listed in the repository as the winner, and you will also get your tag pinged with a everyone ping with your GitHub profile.
+Participant(s) are for this team:
+https://github.com/JohaanMannanal and 711768550393512243 (discord user ID)
+
